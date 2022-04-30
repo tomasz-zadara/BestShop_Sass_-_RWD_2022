@@ -18,6 +18,11 @@ h2 {
 .container {
   width: 1352px;
   margin: 0 auto;
+
+  @include laptop {
+    width: 100%;
+    padding: 0 15px;
+  }
 }
 
 .logo {
